@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(15, 15, 15);
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #414142;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* image uzre emeliyyat border tetbiq edilir*/
+
+.center {
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-color: #050505 #f32c11;
+  border-image: none;
+  border-radius: 50% 50% 50% 50%;
+  border-style: solid;
+  border-width: 25px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-info h4 {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.second-info h1 {
+  text-align: center;
+}
+.second-info p {
+  text-align: justify;
+}
+
+.owl-carousel owl-theme {
+  padding-top: 40px;
+}
+.item p {
+  width: 250px;
+  border: 10px solid rgb(8, 8, 8);
+  text-align: justify;
+}
+.item img {
+  border: 10px solid rgb(8, 8, 8);
+}
+.fourth {
+  display: flex;
+  flex: content;
+  justify-content: center;
+  align-items: center;
+}
+.fourth p {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rigth {
+  height: 400px;
+  width: 400px;
+  display: block;
+}
+
+.contact {
+  display: flex;
+  flex: content;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+}
+
+.button:hover {
+  background-color: #421417;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #000;
+  color: white;
+}
